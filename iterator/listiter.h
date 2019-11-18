@@ -12,7 +12,7 @@ public:
     inline T& First() const { m_parent[0]; }
     inline T& Next() { return m_parent[++m_idx]; }
     inline T& CurrentItem() { return m_parent[m_idx]; }
-    inline bool IsDone() { return m_idx == m_parent.getSize() + 1; }
+    inline bool IsDone() { return m_idx >= m_parent.getSize(); }
 };
 
 template <typename T>
@@ -36,5 +36,5 @@ public:
         } 
         return m_parent[m_idx];
     }
-    inline bool IsDone() { return m_idx >= m_parent.getSize() + 1; }
+    inline bool IsDone() { return m_idx >= m_parent.getSize(); }
 };
