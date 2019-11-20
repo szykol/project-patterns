@@ -4,11 +4,8 @@
 #include <cassert>
 
 int main() {
-    Singleton one;
-    Singleton two;
-
-    auto first = one.getInstance();
-    auto second = two.getInstance();
+    auto first = Singleton::getInstance();
+    auto second = Singleton::getInstance();
 
     assert(first == second);
 }

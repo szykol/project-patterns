@@ -2,8 +2,7 @@
 
 class Singleton {
     static Singleton* instance;
-public:
     Singleton();
-    ~Singleton();
-    Singleton* getInstance();
+public:
+    static Singleton* getInstance();
 };
