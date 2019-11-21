@@ -1,6 +1,6 @@
 # project-patterns
 
-##To build all project at once run root CMakeLists.txt
+## To build all project at once run root CMakeLists.txt
 
 or
 
