@@ -1,4 +1,4 @@
-#include "bridge.h"
+#include "strategia.h"
 
 int main() {
     Zamowienie z;
