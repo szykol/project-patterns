@@ -63,7 +63,6 @@ public:
     virtual std::string parseTag(const std::string& tag) {
         auto t = extractTag(tag);
 
-        std::transform(t.content.begin(), t.content.end(),t.content.begin(), ::toupper);
         return "{" + t.tagName + "#" + t.content + "}";
     };
 };
