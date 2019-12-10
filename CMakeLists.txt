@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
+set (CMAKE_CXX_STANDARD 17)
+
 project(one_to_rule_them_all)
 
 add_subdirectory(adapter)
@@ -13,3 +15,7 @@ add_subdirectory(composit)
 add_subdirectory(factory-method)
 add_subdirectory(decorator)
 add_subdirectory(abstract-factory)
+add_subdirectory(observer)
+add_subdirectory(chain-of-resp)
+add_subdirectory(builder)
+add_subdirectory(proxy)
