@@ -11,4 +11,8 @@ int main() {
 
     auto vis = OficjalneCeny();
     vis.visitZwierzeta(zwierzeta);
+    auto vis2 = Czarnorynkowe();
+    vis2.visitZwierzeta(zwierzeta);
+    auto vis3 = Weterynarz();
+    vis3.visitZwierzeta(zwierzeta);
 }
